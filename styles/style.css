@@ -1,0 +1,30 @@
+body{
+    background-image: url("/images/1096897.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /*background-image: radial-gradient(ellipse at bottom, white 20%, dodgerblue 100%);*/
+}
+
+#tabela {
+    font-family: "Microsoft JhengHei UI";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela td, #tabela th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+}
