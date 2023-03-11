@@ -1,30 +1,100 @@
 body{
-    background-image: url("/images/1096897.jpg");
+    background-image: url("../images/1096897.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     /*background-image: radial-gradient(ellipse at bottom, white 20%, dodgerblue 100%);*/
+    margin-left: 15%;
+    margin-right: 15%;
 }
-
-#tabela {
+#titlecss{
+    margin-top: 2px;
+    margin-bottom: 6px;
     font-family: "Microsoft JhengHei UI";
+    font-size: 60px;
+    color: deeppink;
+    text-align: center;
+    -webkit-text-stroke-color: #5d7eff;
+    -webkit-text-stroke-width: 1.5px;
+}
+.first{
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 14%;
+    font-family: "Microsoft JhengHei UI";
+    font-size: 30px;
+    color: purple;
+    margin-bottom: 4px;
+}
+.second{
+    text-align: left;
+    margin-top: 4px;
+    margin-left: 30%;
+    font-family: "Microsoft JhengHei UI";
+    font-weight: bold;
+    font-size: 25px;
+    color: purple;
+}
+#tabela {
+    font-family: "Arial";
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    font-size: 16px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #tabela td, #tabela th {
-    border: 2px solid #ddd;
+    border: 2px solid deeppink;
     padding: 8px;
 }
 
-#tabela tr:nth-child(even){background-color: #f2f2f2;}
+#tabela tr:nth-child(even){
+}
 
-#tabela tr:hover {background-color: #ddd;}
+#tabela tr:hover {background-color: purple;}
 
 #tabela th {
+    font-family: "Arial";
+    font-size: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: cornflowerblue;
+    background-color: #4b04b9;
+    color: #ffffff;
+}
+input[type=text], select {
+    width: 100%;
     color: white;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #4b04b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #4b04b9;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: deeppink;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: dodgerblue;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
