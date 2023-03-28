@@ -6,6 +6,9 @@ body{
     /*background-image: radial-gradient(ellipse at bottom, white 20%, dodgerblue 100%);*/
     margin-left: 15%;
     margin-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    color: deepskyblue;
 }
 #titlecss{
     margin-top: 2px;
@@ -17,57 +20,9 @@ body{
     -webkit-text-stroke-color: #5d7eff;
     -webkit-text-stroke-width: 1.5px;
 }
-.first{
-    margin-top: 5px;
-    text-align: left;
-    padding-left: 14%;
-    font-family: "Microsoft JhengHei UI";
-    font-size: 40px;
-    color: purple;
-    margin-bottom: 4px;
-}
-.second{
-    text-align: left;
-    margin-top: 4px;
-    margin-left: 30%;
-    font-family: "Microsoft JhengHei UI";
-    font-weight: bold;
-    font-size: 35px;
-    color: purple;
-}
-#tabela {
-    font-family: "Arial";
-    border-collapse: collapse;
-    width: 80%;
-    font-size: 16px;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#tabela td, #tabela th {
-    border: 2px solid deeppink;
-    padding: 8px;
-}
-
-#tabela tr:nth-child(even){
-}
-
-#tabela tr:hover {background-color: purple;}
-
-#tabela th {
-    font-family: "Arial";
-    font-size: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4b04b9;
-    color: #ffffff;
-}
-input[type=text], select {
+input[type=text]{
     width: 100%;
-    color: white;
+    color: #ffffff;
     padding: 12px 20px;
     margin: 5px 0;
     display: inline-block;
@@ -77,7 +32,18 @@ input[type=text], select {
     font-size: 14px;
     background-color: #4b04b9;
 }
-
+input[type=password]{
+    width: 100%;
+    color: grey;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #4b04b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #4b04b9;
+}
 input[type=submit] {
     width: 100%;
     background-color: deeppink;
@@ -93,8 +59,11 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: dodgerblue;
 }
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+.error{
+    font-size: 25px;
+    font-weight: bold;
+    color: deeppink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }

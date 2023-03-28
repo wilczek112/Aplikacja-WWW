@@ -1,5 +1,11 @@
 <?php
     session_start();
+
+    if(!isset($_SESSION['zalogowany']))
+    {
+        header('Location: index.php');
+        exit();
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -11,11 +17,14 @@
         <link rel="stylesheet" type="text/css" href="../styles/style_main.css">
     </head>
     <body>
-    <h1 id="titlecss"> Zalogowano: 
+    <h1 id="titlecss">
         <?php
-        echo $_SESSION['login'];
+        echo "Zalogowano: ".$_SESSION['login']." z uprawnieniami: ".$_SESSION['user_type'];
         ?>
         </h1>
+        <?php
+            echo '<a style="float: right; font-size: 25px" href="logout.php">Wyloguj się!</a>';
+        ?>
         <br>
         <br>
         <h3 class="first">Elementy na stronie:</h3>

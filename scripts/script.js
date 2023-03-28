@@ -48,7 +48,6 @@ window.onload = function () {
 
     function startTimer(){
         tens++;
-        hours+=43;
         if(tens <= 9){
             appendTens.innerHTML = "0" +tens;
         }
