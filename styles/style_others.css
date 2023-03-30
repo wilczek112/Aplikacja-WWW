@@ -20,6 +20,22 @@ body{
     -webkit-text-stroke-color: #5d7eff;
     -webkit-text-stroke-width: 1.5px;
 }
+.error{
+    font-size: 25px;
+    font-weight: bold;
+    color: deeppink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.error2{
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
 input[type=text]{
     width: 100%;
     color: #ffffff;
@@ -58,12 +74,4 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: dodgerblue;
-}
-.error{
-    font-size: 25px;
-    font-weight: bold;
-    color: deeppink;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
 }
