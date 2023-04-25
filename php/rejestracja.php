@@ -40,7 +40,7 @@
             $wszystko_OK=false;
             $_SESSION['e_regulamin']="Potwierdź, że lubisz placki!!!";
         }
-        $sekret="6Le2xjwlAAAAADVcenq1c56ENANPqAra_cIK2bJ-";
+        $sekret="6LeMukUlAAAAALZ3X5Ak9-T3-SHLgKWIOSToe5iL";
         $sprawdz = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$sekret.'&response='.$_POST['g-recaptcha-response']);
         $odpowiedz = json_decode($sprawdz);
         if($odpowiedz->success==false)
@@ -192,7 +192,7 @@
 
 
 <!--    <div class="cf-turnstile" data-sitekey="0x4AAAAAAADkMf2geqNHK9Kq"></div><br/>-->
-    <div class="g-recaptcha" data-sitekey="6Le2xjwlAAAAAGbAapmhOCMeaDVWk35sdDNHL4uQ"></div><br/>
+    <div class="g-recaptcha" data-sitekey="6LeMukUlAAAAAKB70qGbLMauSuwS5HdHIoZgkGsD"></div><br/>
     <?php
     if(isset($_SESSION['e_captcha']))
     {

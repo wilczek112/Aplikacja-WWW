@@ -30,6 +30,7 @@
         <h3 class="first">Elementy na stronie:</h3>
         <ol class="second">
             <li><a href="../pages/timer.html">stoper</a></li>
+            <li><a href="./calendar/slave_page.php">kalendarz</a></li>
             <li>lista</li>
             <li>tabela</li>
             <li>formularz</li>
@@ -44,17 +45,17 @@
             <th>Pomysł</th>
         <tr>
             <td>Oskar</td>
-            <td>Wilk</td>
+            <td>Kowalski</td>
             <td>Sklep internetowy</td>
         </tr>
         <tr>
             <td>Marcel</td>
-            <td>Andrzejczak</td>
+            <td>Kowalski</td>
             <td>Serwis informacyjny</td>
         </tr>
         <tr>
             <td>Jakub</td>
-            <td>Walczak</td>
+            <td>Kowalski</td>
             <td>Kolorowanki dla dzieci</td>
         </tr>
         </table>
