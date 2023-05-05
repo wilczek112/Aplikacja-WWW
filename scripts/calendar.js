@@ -78,12 +78,12 @@ $(function() {
         var id = $(this).attr('data-id');
 
         if (!!scheds[id]) {
-            var _conf = confirm("Are you sure to delete this scheduled event?");
+            var _conf = confirm("Czy na pewno chcesz usunąć to wydarzenie?");
             if (_conf === true) {
                 location.href = "../calendar/delete_calendar.php?id=" + id;
             }
         } else {
-            alert("Event is undefined");
+            alert("Niezidentyfikowane wydarzenie");
         }
     });
 });

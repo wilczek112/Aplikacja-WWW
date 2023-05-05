@@ -1,11 +1,11 @@
 body{
-    background-image: url("../images/1096897.jpg");
+    background-image: url("../images/cyberpunk4k.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /*background-image: radial-gradient(ellipse at bottom, white 20%, dodgerblue 100%);*/
-    margin-left: 15%;
-    margin-right: 15%;
+    background-size: auto 100%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 20px;
     font-weight: bold;
     color: deepskyblue;
@@ -20,6 +20,7 @@ body{
     -webkit-text-stroke-color: #5d7eff;
     -webkit-text-stroke-width: 1.5px;
 }
+
 .error{
     font-size: 25px;
     font-weight: bold;
@@ -75,3 +76,51 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: dodgerblue;
 }
+
+@media (max-width: 425px) {
+    body{
+        background-image: url("../images/cyberpunk.jpg");
+    }
+    #titlecss{
+        font-size: 40px;
+    }
+    .first{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .second{
+        font-size: 25px;
+    }
+    #tabela {
+        width: 90%;
+        font-size: 15px;
+
+    }
+}
+
+@media (min-width: 426px) and (max-width: 800px) {
+    body{
+        background-image: url("../images/1096897.jpg");
+    }
+    #titlecss{
+        font-size: 40px;
+    }
+    .first{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .second{
+        font-size: 25px;
+    }
+    #tabela {
+        width: 90%;
+        font-size: 15px;
+
+    }
+}
+@media (min-width: 801px) and (max-width: 1080px){
+    body{
+        background-image: url("../images/1096897.jpg");
+    }
+}
+

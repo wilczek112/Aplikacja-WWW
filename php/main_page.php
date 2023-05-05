@@ -14,7 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>STRONA W BUDOWIE</title>
-        <link rel="stylesheet" type="text/css" href="../styles/style_main.css">
+        <link rel="stylesheet" type="text/css" href="../styles/style_main.css?v=4">
     </head>
     <body>
     <h1 id="titlecss">

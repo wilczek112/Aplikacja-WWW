@@ -112,7 +112,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REJESTRACJA</title>
-    <link rel="stylesheet" type="text/css" href="../styles/style_others.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style_others.css?v=6">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!--    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>-->
 </head>

@@ -1,11 +1,11 @@
 body{
-    background-image: url("../images/1096897.jpg");
+    background-image: url("../images/cyberpunk4k.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /*background-image: radial-gradient(ellipse at bottom, white 20%, dodgerblue 100%);*/
-    margin-left: 15%;
-    margin-right: 15%;
+    background-size: auto 100%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #titlecss{
     margin-top: 2px;
@@ -17,13 +17,18 @@ body{
     -webkit-text-stroke-color: #5d7eff;
     -webkit-text-stroke-width: 1.5px;
 }
+a{
+    color: #00a5ff;
+}
 .first{
     margin-top: 5px;
     text-align: left;
     padding-left: 14%;
     font-family: "Microsoft JhengHei UI";
     font-size: 40px;
-    color: purple;
+    color: #00a5ff;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
     margin-bottom: 4px;
 }
 .second{
@@ -33,7 +38,9 @@ body{
     font-family: "Microsoft JhengHei UI";
     font-weight: bold;
     font-size: 35px;
-    color: purple;
+    color: #00a5ff;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
 }
 #tabela {
     font-family: "Arial";
@@ -54,7 +61,7 @@ body{
 #tabela tr:nth-child(even){
 }
 
-#tabela tr:hover {background-color: purple;}
+#tabela tr:hover {background-color: #00a5ff;}
 
 #tabela th {
     font-family: "Arial";
@@ -98,3 +105,52 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+@media (max-width: 425px) {
+    body{
+        background-image: url("../images/cyberpunk.jpg");
+
+    }
+    #titlecss{
+        font-size: 40px;
+    }
+    .first{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .second{
+        font-size: 25px;
+    }
+    #tabela {
+        width: 90%;
+        font-size: 15px;
+
+    }
+}
+
+@media (min-width: 426px) and (max-width: 800px) {
+    body{
+        background-image: url("../images/1096897.jpg");
+    }
+    #titlecss{
+        font-size: 40px;
+    }
+    .first{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .second{
+        font-size: 25px;
+    }
+    #tabela {
+        width: 90%;
+        font-size: 15px;
+
+    }
+}
+@media (min-width: 801px) and (max-width: 1080px){
+    body{
+        background-image: url("../images/1096897.jpg");
+    }
+}
+

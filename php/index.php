@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lubie placki</title>
-    <link rel="stylesheet" type="text/css" href="../styles/style_others.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style_others.css?v=6">
 </head>
 <body>
     <h1 id="titlecss">LOGOWANIE</h1>

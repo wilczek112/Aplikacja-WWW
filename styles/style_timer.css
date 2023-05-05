@@ -3,9 +3,10 @@ body{
     font-family: "Microsoft JhengHei UI";
     font-size: 35px;
     height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .wrapper {
-    width: 1000px;
     margin: 40px auto;
     color: black;
     text-align: center;
@@ -31,7 +32,25 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
-    margin: 0px 8px;
+    margin: 8px 8px;
     cursor: pointer;
     border-radius: 20px;
+}
+
+@media(max-width: 800px){
+    body{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    button{
+        padding: 25px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
 }
